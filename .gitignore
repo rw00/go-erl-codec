@@ -1,0 +1,21 @@
+# Binaries & build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+
+# Go workspace / fuzz artifacts
+go.work
+go.work.sum
+testdata/fuzz/
+
+# OS & editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
